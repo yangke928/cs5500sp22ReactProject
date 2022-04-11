@@ -32,7 +32,7 @@ const TuitStats = ({tuit, likeTuit, dislikeTuit = () => {}}) => {
                       <i className="fa-solid fa-thumbs-down" style={{color: 'red'}} />
                       :<i className="fa-solid fa-thumbs-down" />
               }
-              <span className="ttr-stats-likes">{tuit.stats && tuit.stats.likes}</span>
+              <span className="ttr-stats-likes">{tuit.stats && tuit.stats.dislikes}</span>
           </span>
           </div>
         <div className="col">

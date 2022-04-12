@@ -1,8 +1,7 @@
+import Tuits from "../tuits";
+import * as service from "../../services/dislike-service";
+import {useEffect, useState} from "react";
+
 const MyDislikes = () => {
-    return(
-        <div>
-            <h1>My Dislikes</h1>
-        </div>
-    )
 }
 export default MyDislikes;
